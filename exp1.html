@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>My Profile</title>
+
+<style>
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+body{
+    background:#f4f6f9;
+    height:100vh;
+}
+
+.container{
+    display:grid;
+    grid-template-rows:80px 1fr 60px;
+    height:100vh;
+}
+
+/* Header */
+.header{
+    background:#0d47a1;
+    color:white;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    font-size:32px;
+    font-weight:bold;
+}
+
+/* Main Section */
+.main{
+    display:grid;
+    grid-template-columns:250px 1fr 250px;
+}
+
+/* Left */
+.left{
+    background:#e3f2fd;
+    padding:20px;
+    border-right:2px solid #ccc;
+}
+
+.left h2{
+    color:#0d47a1;
+    margin-bottom:15px;
+}
+
+.left p{
+    margin:15px 0;
+    font-size:18px;
+}
+
+/* Center */
+.center{
+    background:white;
+    padding:40px;
+    text-align:center;
+}
+
+.center h2{
+    color:#0d47a1;
+    margin-bottom:20px;
+}
+
+.center p{
+    font-size:18px;
+    line-height:1.8;
+}
+
+/* Right */
+.right{
+    background:#fff3e0;
+    padding:20px;
+    border-left:2px solid #ccc;
+}
+
+.right h2{
+    color:#ef6c00;
+    margin-bottom:15px;
+}
+
+.right a{
+    text-decoration:none;
+    color:#1565c0;
+    font-size:18px;
+    word-break:break-word;
+}
+
+.right a:hover{
+    text-decoration:underline;
+}
+
+/* Footer */
+.footer{
+    background:#2e7d32;
+    color:white;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    font-size:22px;
+    font-weight:bold;
+}
+</style>
+
+</head>
+<body>
+
+<div class="container">
+
+    <!-- Header -->
+    <div class="header">
+        Keerthi
+    </div>
+
+    <!-- Main -->
+    <div class="main">
+
+        <!-- Left -->
+        <div class="left">
+            <h2>Contact</h2>
+            <p>📧 keerthi@gmail.com</p>
+            <p>📱 +91 9876543210</p>
+        </div>
+
+        <!-- Center -->
+        <div class="center">
+            <h2>About Me</h2>
+            <p>
+                Hello! I'm <b>Keerthi</b>, a Computer Science student
+                passionate about programming, Artificial Intelligence,
+                Machine Learning, and Web Development. I enjoy solving
+                coding problems, building innovative projects, and
+                continuously learning new technologies to enhance my skills.
+            </p>
+        </div>
+
+        <!-- Right -->
+        <div class="right">
+            <h2>Profile</h2>
+            <a href="https://www.linkedin.com/in/yourprofile" target="_blank">
+                LinkedIn Profile
+            </a>
+            <br><br>
+            <a href="https://github.com/yourusername" target="_blank">
+                GitHub Profile
+            </a>
+        </div>
+
+    </div>
+
+    <!-- Footer -->
+    <div class="footer">
+        Thank You!
+    </div>
+
+</div>
+
+</body>
+</html>
